@@ -24,10 +24,10 @@ function Footer() {
             {/* Column 2: Logo and Info Section */}
             <div className="fot-col2 p-2  ">
               {/* <img className="w-32 mb-4" src="../src/assets/im/logo-white.png" alt="Red store" /> */}
-            <div className='flex gap-2 items-center font-mono'>
-            <GiSquib /><span className='text-red-600 text-3xl font-semibold'>Red</span> StoreApp
+            <div className='flex gap-2 items-center font-mono '>
+            <GiSquib className='text-3xl' /><span className='text-red-600 text-3xl font-semibold'>Red</span> StoreApp
             </div>
-              <p className="text-sm">
+              <p className="text-sm max-w-[60%]">
                 Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
               </p>
             </div>

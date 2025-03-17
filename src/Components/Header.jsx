@@ -16,7 +16,7 @@ function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2 font-mono gap-1">
           {/* <img src="../src/assets/im/logo-white.png" alt="Logo" className="h-8" /> */}
-          <GiSquib />
+          <GiSquib className='text-4xl' />
           {/* <span className="text-2xl font-semibold text-white">Brand</span>    */}
           <span className='text-white text-3xl font-semibold'>Red</span> StoreApp
         </Link>
