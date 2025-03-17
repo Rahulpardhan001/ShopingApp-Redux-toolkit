@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHeart, FaCartPlus } from "react-icons/fa";
+import { GiSquib } from "react-icons/gi";
 import { useSelector } from 'react-redux';
 
 function Header() {
@@ -14,7 +15,8 @@ function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
-          <img src="../src/assets/im/logo-white.png" alt="Logo" className="h-8" />
+          {/* <img src="../src/assets/im/logo-white.png" alt="Logo" className="h-8" /> */}
+          <GiSquib />
           <span className="text-2xl font-semibold text-white">Brand</span>
         </Link>
 
