@@ -15,7 +15,6 @@ function Categories() {
 }
 
 export default Categories;
-
 // Category Slider
 export function PauseOnHover() {
   const settings = {
