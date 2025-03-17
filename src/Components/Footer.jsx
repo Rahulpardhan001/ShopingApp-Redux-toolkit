@@ -1,25 +1,27 @@
 import React from 'react';
-
+import { BiLogoPlayStore } from "react-icons/bi";
+import { RiAppStoreFill } from "react-icons/ri";
 function Footer() {
   return (
     <>
       <footer className="bg-black  text-white pb-10">
-        <div className="container p-1 mx-auto">
+        <div className="container p-1">
           {/* Responsive grid: 1 column on small screens, 4 columns on large screens */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 mb-12">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 mb-12 border"> */}
+          <div className="flex flex-col justify-evenly sm:flex-col md:flex-row gap-5 p-5">
             
             {/* Column 1: App Download Section */}
-            <div className="fot-col1">
+            <div className="fot-col1  p-2 ">
               <h3 className="pb-2 text-lg font-semibold">Download Our App</h3>
               <p className="pb-2">Download our app for Android or iOS mobile phones.</p>
               <div className="app-logo flex gap-5">
-                <img className="w-32" src="../src/assets/im/play-store.png" alt="Play Store" />
-                <img className="w-32" src="../src/assets/im/app-store.png" alt="App Store" />
+                <BiLogoPlayStore className='text-2xl' />
+                <RiAppStoreFill className='text-2xl' />
               </div>
             </div>
 
             {/* Column 2: Logo and Info Section */}
-            <div className="fot-col2">
+            <div className="fot-col2 p-2  ">
               <img className="w-32 mb-4" src="../src/assets/im/logo-white.png" alt="Logo" />
               <p className="text-sm">
                 Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
@@ -27,7 +29,7 @@ function Footer() {
             </div>
 
             {/* Column 3: Useful Links Section */}
-            <div className="fot-col3">
+            <div className="fot-col3 p-2 ">
               <h3 className="text-lg font-semibold pb-2">Useful Links</h3>
               <ul className="space-y-2">
                 <li className="hover:text-gray-400 transition">Coupons</li>
@@ -38,7 +40,7 @@ function Footer() {
             </div>
 
             {/* Column 4: Follow Us Section */}
-            <div className="fot-col4">
+            <div className="fot-col4 p-2  ">
               <h3 className="text-lg font-semibold pb-2">Follow Us</h3>
               <ul className="space-y-2">
                 <li className="flex items-center hover:text-gray-400 transition">
