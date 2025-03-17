@@ -59,8 +59,10 @@ function Cart() {
                   <td className="py-3 text-center">
                     ${curElem.price.toFixed(2)}
                   </td>
-                  <td className="py-3 flex items-center justify-center space-x-3">
-                    <button
+                  {/* quantity increment or decrement button */}
+                  <td className="">
+                   <div className="flex justify-center gap-1">
+                   <button
                       onClick={() => handleDecrement(curElem)}
                       className="text-gray-600 hover:text-gray-900 transition"
                     >
@@ -73,6 +75,8 @@ function Cart() {
                     >
                       <LuPlusCircle className="text-2xl" />
                     </button>
+                   </div>
+
                   </td>
                   <td className="py-3 text-center">
                     ${(curElem.price * curElem.quantity).toFixed(2)}
