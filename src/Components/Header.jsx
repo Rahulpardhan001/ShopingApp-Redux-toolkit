@@ -14,10 +14,11 @@ function Header() {
     <header className="bg-[url('../src/assets/im/herobg.jpg')] ">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="flex items-center space-x-2">
+        <Link to="/" className="flex items-center space-x-2 font-mono gap-1">
           {/* <img src="../src/assets/im/logo-white.png" alt="Logo" className="h-8" /> */}
           <GiSquib />
-          <span className="text-2xl font-semibold text-white">Brand</span>
+          {/* <span className="text-2xl font-semibold text-white">Brand</span>    */}
+          <span className='text-white text-3xl font-semibold'>Red</span> StoreApp
         </Link>
 
         {/* Mobile menu button */}
