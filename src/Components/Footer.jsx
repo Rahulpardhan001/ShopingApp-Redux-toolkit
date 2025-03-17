@@ -22,7 +22,7 @@ function Footer() {
 
             {/* Column 2: Logo and Info Section */}
             <div className="fot-col2 p-2  ">
-              <img className="w-32 mb-4" src="../src/assets/im/logo-white.png" alt="Logo" />
+              <img className="w-32 mb-4" src="../src/assets/im/logo-white.png" alt="Red store" />
               <p className="text-sm">
                 Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
               </p>
